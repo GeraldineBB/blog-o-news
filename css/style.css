@@ -15,7 +15,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .logo-bloc {
@@ -44,7 +44,9 @@ h1 {
 
 .footer {
   text-align: right;
-  margin-right: 8px;
+  margin: 10px 20px;
+  background-color: rgba(249, 249, 249, 0.3);
+  text-shadow: rgb(29, 28, 28) 1px 0 5px;
 }
 
 .footer a {
@@ -78,6 +80,9 @@ h1 {
 
 main {
   width: 50%;
+  /* On fixe une taille, si ça dépasse on peut appliquer un overflow pour gérer le contenu qui dépasse. Ici, scroll. */
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .content-articles {
