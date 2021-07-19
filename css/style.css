@@ -1,0 +1,147 @@
+body {
+  font-size: 16px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* Gauche */
+
+header {
+  background-image: url('../images/nicole.jpg');
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.logo-bloc {
+  display: flex;
+  margin: 20px 0 15px 20px;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 14px;
+  padding-top: 5px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  width: 60px;
+  line-height: 1.2;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.footer {
+  text-align: right;
+  margin-right: 8px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #0766f0;
+}
+
+.transparent-bloc {
+  text-align: right;
+  background-color: rgba(249, 249, 249, 0.3);
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  text-shadow: rgb(29, 28, 28) 1px 0 5px;
+}
+
+.title-left {
+  font-size: 1.9em;
+}
+
+.italic-text {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Droite */
+
+main {
+  width: 50%;
+}
+
+.content-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-bloc {
+  width: 50%;
+  border-right: #eaeaea solid 1px;
+  border-top: #eaeaea solid 1px;
+  padding: 30px;
+}
+
+.title-right {
+  background-color: #ebebeb;
+  padding: 30px;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.news-button {
+  background-color: #98dc62;
+}
+
+.team-button {
+  background-color: #dc5e53;
+}
+
+.work-button {
+  background-color: #0766f0;
+}
+
+h3 {
+  margin: 15px 0;
+}
+
+.author {
+  display: flex;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 25px;
+  margin-right: 12px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.date {
+  font-weight: normal;
+  color: #afaeae;
+}
+
+.reading {
+  text-decoration: underline;
+  font-weight: bold;
+}

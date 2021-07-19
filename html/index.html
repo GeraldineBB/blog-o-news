@@ -11,15 +11,18 @@
 <body>
     <div class="wrapper">
     <header>   
-        <img src="../images/onews.svg" alt="Oclock students news" width="200">                   
+        <div class="logo-bloc">
+            <img class="logo" src="../images/onews.svg" alt="Oclock students news">
+            <h1>O'clock Students news</h1>
+        </div>                 
         <div class="transparent-bloc">
-            <h1>Latest news <span>from our students</span></h1>
+            <h2 class="title-left">Latest news <span class="italic-text">from our students</span></h2>
             <p> 
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste aliquam dolor asperiores ut, tempora deserunt distinctio impedit! Earum, illum consectetur! Natus perspiciatis eos earum ducimus ex rem labore doloribus atque!
             </p>
         </div>
         <nav>        
-            <ul>
+            <ul class="footer">
                 <li><a href="#">Plan du site</a></li>
                 <li><a href="#">Mentions légales</a></li>
                 <li><a href="#">Contact</a></li>
@@ -27,60 +30,61 @@
         </nav>
     </header>
     <main>    
-        <h2>Latest news</h2>
-        <article class="article-bloc">
-            <button>News</button>
-            <h3>Lorem ipsum dolor si amet</h3>
-
-            <div class="author">            
-                <img src="../images/icon-john.png" alt="avatar">
-                <p>John Marchill <span class="date">le 21 Juillet 2019</span></p>
-            </div>
+        <h2 class="title-right">Latest news</h2>
+        <div class="content-articles">
+            <article class="article-bloc">
+                <button class="news-button">News</button>
+                <h3>Lorem ipsum dolor si amet</h3>
+                <div class="author">
+                    <img class="avatar" src="../images/icon-john.png" alt="avatar">
+                    <p class="author-name">John Marchill <span class="date">le 21 Juillet 2019</span></p>
+                </div>
             
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
-            </p>
-            <a href="#">Continue reading</a>
-        </article>
-        <article class="article-bloc">
-            <button>Team</button>
-            <h3>Le pair programming pour les nOObs</h3
-            <div class="author">            
-                <img src="../images/icon-dar.png" alt="avatar">
-                <p>John Marchill <span class="date">le 21 Juillet 2019</span></p>
-            </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
+                </p>
+                <a class="reading" href="#">Continue reading</a>
+            </article>
+            <article class="article-bloc">
+                <button class="team-button">Team</button>
+                <h3>Le pair programming pour les nOObs</h3>
+                <div class="author">
+                    <img class="avatar" src="../images/icon-dar.png" alt="avatar">
+                    <p class="author-name">Paul Darson <span class="date">le 2 août 2019</span></p>
+                </div>
             
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
-            </p>
-            <a href="#">Continue reading</a>    
-        </article>
-        <article class="article-bloc">
-            <button>Work</button>
-            <h3>Pourquoi j'aime PHP</h3>
-            <div class="author">            
-                <img src="../images/icon-ohz.png" alt="avatar">
-                <p>John Marchill <span class="date">le 21 Juillet 2019</span></p>
-            </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
+                </p>
+                <a class="reading" href="#">Continue reading</a>
+            </article>
+            <article class="article-bloc">
+                <button class="work-button">Work</button>
+                <h3>Pourquoi j'aime PHP</h3>
+                <div class="author">
+                    <img class="avatar" src="../images/icon-ohz.png" alt="avatar">
+                    <p class="author-name">Bruce Ekoute <span class="date">le 7 août 2019</span></p>
+                </div>
             
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
-            </p>
-            <a href="#">Continue reading</a>
-        </article>
-        <article class="article-bloc">
-            <button>Team</button>
-            <h3>La situation de scribe</h3>
-            <div class="author">            
-                <img src="../images/icon-spr.png" alt="avatar">
-                <p>John Marchill <span class="date">le 21 Juillet 2019</span></p>
-            </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
+                </p>
+                <a class="reading" href="#">Continue reading</a>
+            </article>
+            <article class="article-bloc">
+                <button class="team-button">Team</button>
+                <h3>La situation de scribe</h3>
+                <div class="author">
+                    <img class="avatar" src="../images/icon-spr.png" alt="avatar">
+                    <p class="author-name">Otis <span class="date">le 5 septembre 2019</span></p>
+                </div>
             
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
-            </p>
-            <a href="#">Continue reading</a>
-        </article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus cum, rem vel reprehenderit eveniet veniam molestiae itaque quod! Neque quam ut incidunt dolores a. Pariatur, cupiditate? Animi, corporis molestias?
+                </p>
+                <a class="reading" href="#">Continue reading</a>
+            </article>
+        </div>
     </main>
     </div>
 </body>
